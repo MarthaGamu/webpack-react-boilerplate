@@ -1,7 +1,37 @@
 {
   "name": "webpack-react-boilerplate",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "./src/index.js",
   "author": "Martha Mandizvidza <martha.mandizvidza@vodafone.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "a": "webpack --config webpack.config.js",
+    "start": "webpack-dev-server --mode development",
+    "build": "webpack-dev-server --mode production",
+    "start:dev": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc",
+    "typecheck": "yarn tsc"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "styled-components": "^5.3.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.9",
+    "@babel/preset-env": "^7.18.9",
+    "@babel/preset-flow": "^7.18.6",
+    "@babel/preset-react": "^7.18.6",
+    "@babel/preset-typescript": "^7.18.6",
+    "babel-loader": "^8.2.5",
+    "copy-webpack-plugin": "^11.0.0",
+    "html-webpack-plugin": "^5.5.0",
+    "ts-loader": "^9.3.1",
+    "typescript": "3.8.3",
+    "webpack": "^5.74.0",
+    "prettier": "^2.7.1",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.9.3"
+  }
 }
