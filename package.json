@@ -1,0 +1,7 @@
+{
+  "name": "webpack-react-boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Martha Mandizvidza <martha.mandizvidza@vodafone.com>",
+  "license": "MIT"
+}
